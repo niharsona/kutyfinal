@@ -42,7 +42,7 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Malayalam:wght@400;500;600;700;800&family=Syne:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-    <!-- Shared: hamburger + mobile nav styles -->
+    <!-- Shared: loader + hamburger + mobile nav + footer styles -->
     <link rel="stylesheet" href="kutty-extras.css">
 
     <!-- Photography page styles -->
@@ -60,7 +60,6 @@
         <a href="gardening.html">🌿 തോട്ടം</a>
         <a href="about.html" class="kt-cta">ℹ️ അറിയുക</a>
     </nav>
-    <!-- ───────────────────────────────────────────── -->
 
 
     <!-- HEADER -->
@@ -77,7 +76,6 @@
             <a href="gardening.html"   class="nav-item">തോട്ടം</a>
             <a href="about.html"       class="nav-item">അറിയുക</a>
         </nav>
-        <!-- Hamburger — kutty-extras.css shows this only on mobile -->
         <button id="kt-hamburger" aria-label="Menu">
             <span></span><span></span><span></span>
         </button>
@@ -94,10 +92,9 @@
     </section>
 
 
-    <!-- ALBUMS — built entirely by photography.js from photos.json -->
+    <!-- ALBUMS — built by photography.js from photos.json -->
     <main class="photo-page">
         <div id="albums-container">
-            <!-- Loading placeholder shown while fetch runs -->
             <div class="empty-state">
                 <div class="empty-state-icon">🌿</div>
                 <p>ഫോട്ടോകൾ ലോഡ് ചെയ്യുന്നു...</p>
@@ -106,42 +103,14 @@
     </main>
 
 
-    <!-- FOOTER — hardcoded here so it works without kutty-extras.js footer injection -->
-    <footer class="footer">
-        <div class="footer-container">
-            <div class="footer-col">
-                <h4>കട്ടിടീച്ചേഴ്സ് ഫോട്ടോഗ്രാഫി</h4>
-                <p>പാലക്കാടിൽ നിന്ന് കഥകൾ സൃഷ്ടിക്കുന്നതിനായി ഞങ്ങളെ പിന്തുടരുക. പ്രകൃതി, വാസ്തവികത, സ്ഥാനിക ജീവിതം.</p>
-            </div>
-            <div class="footer-col">
-                <h4>സേവനങ്ങൾ</h4>
-                <p><a href="index.html">വീട്</a></p>
-                <p><a href="photography.html">ഫോട്ടോഗ്രാഫി</a></p>
-                <p><a href="tutoring.html">പരിശീലനം</a></p>
-                <p><a href="piano.html">സംഗീതം</a></p>
-                <p><a href="gardening.html">തോട്ടം</a></p>
-            </div>
-            <div class="footer-col">
-                <h4>സമ്പർക്കം</h4>
-                <p>ഇമെയിൽ: contact@kuttyteachers.in</p>
-                <p>സ്ഥലം: പാലക്കാട്, കേരളം 🌿</p>
-            </div>
-            <div class="footer-col">
-                <h4>കൂടുതലറിയാൻ</h4>
-                <p><a href="about.html">ഞങ്ങളെക്കുറിച്ച്</a></p>
-                <p><a href="tutoring.html">സൌജന്യ പരിശീലനം</a></p>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <p>© 2026 KuttyTeachers.in — പാലക്കാട്ടിൽ 🌱 നിർമ്മിതം</p>
-        </div>
-    </footer>
+    <!-- SHARED FOOTER — injected by kutty-extras.js -->
+    <div id="kt-footer"></div>
 
 
-    <!-- Shared hamburger + mobile nav logic -->
+    <!-- kutty-extras.js: loader, hamburger, footer injection, active nav -->
     <script src="kutty-extras.js" defer></script>
 
-    <!-- Photography page logic — reads photos.json and builds everything -->
+    <!-- Photography page logic -->
     <script src="photography.js" defer></script>
 
 </body>
