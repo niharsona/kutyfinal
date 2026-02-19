@@ -9,7 +9,7 @@
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Malayalam:wght@400;500;600;700;800&family=Syne:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-    <!-- Shared: hamburger + mobile nav -->
+    <!-- Shared: hamburger + mobile nav + footer styles -->
     <link rel="stylesheet" href="kutty-extras.css">
 
     <!-- Class hub styles -->
@@ -65,48 +65,14 @@
     <main class="class-body" id="class-body"></main>
 
 
-    <!-- FOOTER -->
-    <footer class="footer">
-        <div class="footer-container">
-            <div class="footer-col">
-                <h4>കട്ടിടീച്ചേഴ്സ്</h4>
-                <p>പാലക്കാടിലെ വിദ്യാർത്ഥികൾക്കായി സൌജന്യ പഠന വിഭവങ്ങൾ.</p>
-            </div>
-            <div class="footer-col">
-                <h4>ക്ലാസുകൾ</h4>
-                <p><a href="class-1.html">ഒന്നാം ക്ലാസ്</a></p>
-                <p><a href="class-2.html">രണ്ടാം ക്ലാസ്</a></p>
-                <p><a href="class-3.html">മൂന്നാം ക്ലാസ്</a></p>
-                <p><a href="class-4.html">നാലാം ക്ലാസ്</a></p>
-                <p><a href="class-5.html">അഞ്ചാം ക്ലാസ്</a></p>
-                <p><a href="class-6.html">ആറാം ക്ലാസ്</a></p>
-                <p><a href="class-7.html">ഏഴാം ക്ലാസ്</a></p>
-                <p><a href="class-8.html">എട്ടാം ക്ലാസ്</a></p>
-            </div>
-            <div class="footer-col">
-                <h4>സേവനങ്ങൾ</h4>
-                <p><a href="index.html">വീട്</a></p>
-                <p><a href="photography.html">ഫോട്ടോഗ്രാഫി</a></p>
-                <p><a href="piano.html">സംഗീതം</a></p>
-                <p><a href="gardening.html">തോട്ടം</a></p>
-                <p><a href="about.html">അറിയുക</a></p>
-            </div>
-            <div class="footer-col">
-                <h4>സമ്പർക്കം</h4>
-                <p>contact@kuttyteachers.in</p>
-                <p>പാലക്കാട്, കേരളം 🌿</p>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <p>© 2026 KuttyTeachers.in — പാലക്കാട്ടിൽ 🌱 നിർമ്മിതം</p>
-        </div>
-    </footer>
+    <!-- SHARED FOOTER — injected by kutty-extras.js -->
+    <div id="kt-footer"></div>
 
 
-    <!-- Hamburger logic -->
+    <!-- kutty-extras.js: hamburger + footer injection + active nav -->
     <script src="kutty-extras.js" defer></script>
 
-    <!-- ⚠️ THIS IS THE ONLY LINE THAT CHANGES BETWEEN class-1.html → class-8.html -->
+    <!-- ⚠️ THIS IS THE ONLY LINE THAT CHANGES BETWEEN class-1.html TO class-8.html -->
     <script>const CLASS_DATA_FILE = 'class-1.json';</script>
 
     <!-- Class hub engine — shared across all 8 pages -->
