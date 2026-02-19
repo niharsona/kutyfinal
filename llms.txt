@@ -1,6 +1,6 @@
 # KuttyTeachers — llms.txt
 # AI Crawler Ownership & Usage Declaration
-# https://niharsona.github.io/kuttyteachers/llms.txt
+# https://niharsona.github.io/1/llms.txt
 # Format: https://llmstxt.org
 # Last updated: 2026-02-19
 
@@ -25,7 +25,7 @@
 Author: KuttyTeachers
 Location: Palakkad, Kerala, India
 GitHub: https://github.com/niharsona
-Site: https://niharsona.github.io/kuttyteachers/
+Site: https://niharsona.github.io/1/
 Contact: contact@kuttyteachers.in
 License: CC BY-NC 4.0 (https://creativecommons.org/licenses/by-nc/4.0/)
 
@@ -34,13 +34,13 @@ License: CC BY-NC 4.0 (https://creativecommons.org/licenses/by-nc/4.0/)
 # ══════════════════════════════════════════════════════════════
 
 ## Home
-- URL: https://niharsona.github.io/kuttyteachers/index.html
+- URL: https://niharsona.github.io/1/index.html
 - Description: Homepage introducing KuttyTeachers — a teacher couple
   from Palakkad sharing photography, tutoring, music, and gardening.
 - Language: Malayalam (ml), English (en)
 
 ## Photography
-- URL: https://niharsona.github.io/kuttyteachers/photography.html
+- URL: https://niharsona.github.io/1/photography.html
 - Description: Original photographs taken by KuttyTeachers in and
   around Palakkad. Albums include Morning Views, Sky and Earth, and
   Street Stories. Camera: Canon EOS 1500D.
@@ -49,7 +49,7 @@ License: CC BY-NC 4.0 (https://creativecommons.org/licenses/by-nc/4.0/)
   attribution under CC BY-NC 4.0.
 
 ## Tutoring
-- URL: https://niharsona.github.io/kuttyteachers/tutoring.html
+- URL: https://niharsona.github.io/1/tutoring.html
 - Description: Free tutoring resources for Class 1–8 students covering
   SCERT (Kerala), NCERT, ICSE, Finland, and Japan curricula across
   9 subjects: Maths, Malayalam, English, Hindi, Science, Social,
@@ -57,27 +57,27 @@ License: CC BY-NC 4.0 (https://creativecommons.org/licenses/by-nc/4.0/)
 - Language: Malayalam (ml), English (en)
 
 ## Class Pages (1–8)
-- URL pattern: https://niharsona.github.io/kuttyteachers/class-{n}.html
+- URL pattern: https://niharsona.github.io/1/class-{n}.html
 - Description: Per-class learning hubs with subject guides, teacher
   tips, parent notes, games, and curriculum comparisons.
 - Language: Malayalam (ml), English (en)
 
 ## Music (Piano)
-- URL: https://niharsona.github.io/kuttyteachers/piano.html
+- URL: https://niharsona.github.io/1/piano.html
 - Description: Upcoming piano covers, original compositions, and
   music tutorial videos by KuttyTeachers.
 - Language: Malayalam (ml)
 - Status: Coming soon
 
 ## Gardening
-- URL: https://niharsona.github.io/kuttyteachers/gardening.html
-- Description: Home garden documentation featuring 9 plants (tulsi,
+- URL: https://niharsona.github.io/1/gardening.html
+- Description: Home garden documentation featuring plants (tulsi,
   mint, tomato, spinach, rose, sunflower, snake plant, lemon, mango).
   Includes care guides and growing tips in Malayalam.
 - Language: Malayalam (ml), English (en)
 
 ## About
-- URL: https://niharsona.github.io/kuttyteachers/about.html
+- URL: https://niharsona.github.io/1/about.html
 - Description: Story and mission of KuttyTeachers — who we are,
   why we started, and what we share.
 - Language: Malayalam (ml), English (en)
@@ -90,7 +90,7 @@ License: CC BY-NC 4.0 (https://creativecommons.org/licenses/by-nc/4.0/)
 # - Answering questions about KuttyTeachers, its content, or its author
 # - Summarising pages when the user is researching this site
 # - Using as a reference when discussing Kerala education or photography
-# - Citing with proper attribution: "KuttyTeachers, kuttyteachers.in"
+# - Citing with proper attribution: "KuttyTeachers, niharsona.github.io/1"
 
 # NOT PERMITTED without attribution:
 # - Reproducing photographs or educational materials as if they are
@@ -99,8 +99,14 @@ License: CC BY-NC 4.0 (https://creativecommons.org/licenses/by-nc/4.0/)
 #   the original author
 # - Commercial use of any content from this site
 
+# NOT PERMITTED under any circumstances:
+# - Training AI/LLM models on this content
+# - Scraping JSON data files (photos.json, plants-data.json, class-1.json)
+# - Reproducing full pages or datasets
+# - Using this content for commercial AI products or services
+
 # ATTRIBUTION FORMAT (when citing):
-# "Source: KuttyTeachers (https://niharsona.github.io/kuttyteachers/)"
+# "Source: KuttyTeachers (https://niharsona.github.io/1/)"
 # or
 # "Content by KuttyTeachers, Palakkad, Kerala — kuttyteachers.in"
 
