@@ -1,0 +1,58 @@
+# robots.txt — KuttyTeachers (niharsona.github.io/1)
+# © 2026 KuttyTeachers, Palakkad, Kerala
+# https://creativecommons.org/licenses/by-nc/4.0/
+
+# ── GENERAL CRAWLERS ─────────────────────────────────────────
+User-agent: *
+Allow: /
+
+# Block access to raw data/JSON files — content is ours
+Disallow: /photos.json
+Disallow: /plants-data.json
+Disallow: /class-1.json
+
+# ── AI TRAINING CRAWLERS — block all ─────────────────────────
+# These bots scrape content for AI model training without permission.
+# Our content is licensed CC BY-NC 4.0 — commercial AI training is NOT permitted.
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: Claude-Web
+Disallow: /
+
+User-agent: cohere-ai
+Disallow: /
+
+User-agent: PerplexityBot
+Disallow: /
+
+User-agent: Omgilibot
+Disallow: /
+
+User-agent: FacebookBot
+Disallow: /
+
+User-agent: Diffbot
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: ImagesiftBot
+Disallow: /
+
+User-agent: img2dataset
+Disallow: /
+
+# ── SITEMAP ──────────────────────────────────────────────────
+Sitemap: https://niharsona.github.io/1/sitemap.xml
